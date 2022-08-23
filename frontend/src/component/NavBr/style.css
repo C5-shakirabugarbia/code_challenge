@@ -1,0 +1,18 @@
+.NavCont{
+    display: flex;
+
+}
+
+.logo{
+   background-color: aqua;
+    flex: 1;
+    text-align: left;
+    padding-left: 9px;
+}
+
+.dropList{
+    position: absolute;
+}
+.disappear{
+    display: none;
+}
