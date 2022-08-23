@@ -4,8 +4,8 @@
 }
 
 .logo{
-   background-color: aqua;
-    flex: 1;
+    background-color: aqua;
+    flex: 1 1 50%;
     text-align: left;
     padding-left: 9px;
 }
@@ -26,8 +26,16 @@
 }
 
 .Rli{
-    margin-left: 2%;
+    margin-left: 20%;
+    list-style: none;
 }
 .secondPart{
     flex: 1 1 20%;
+    display: flex;
+    align-items: end;
+}
+
+.lefLi{
+    list-style: none;
+    text-align: left;
 }

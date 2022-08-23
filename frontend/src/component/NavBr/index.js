@@ -24,55 +24,55 @@ const Nav = () => {
           id="region-dropdown"
           className={isActive ? "dropList" : "disappear"}
         >
-          <li>
+          <li className="lefLi">
             <a href="?region=auckland">Auckland</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=waikato">Waikato</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=wellington">Wellington</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=northland">Northland</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=manawatu-wanganui">Manawatu - Wanganui</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=tauranga">Tauranga</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=rotorua-taupo">Rotorua - Taupo</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=hawkes-bay">Hawkes Bay</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=christchurch">Christchurch</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=taranaki">Taranaki</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=nelson-marlborough">Nelson - Marlborough</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=queenstown-wanaka">Queenstown - Wanaka</a>
           </li>
 
-          <li>
+          <li className="lefLi">
             <a href="?region=dunedin-invercargill">Dunedin - Invercargill</a>
           </li>
         </ul>
@@ -81,6 +81,12 @@ const Nav = () => {
       <div className="secondPart">
         <ul className="right">
           <li className="Rli">shaker</li>
+          <li
+            className="Rli
+          "
+          >
+            hello
+          </li>
           <li
             className="Rli
           "
