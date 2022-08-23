@@ -20,7 +20,10 @@ const Nav = () => {
         >
           Auckland
         </button>
-        <ul id="region-dropdown" className={isActive ? "dropList" : "disappear"}>
+        <ul
+          id="region-dropdown"
+          className={isActive ? "dropList" : "disappear"}
+        >
           <li>
             <a href="?region=auckland">Auckland</a>
           </li>
@@ -75,7 +78,17 @@ const Nav = () => {
         </ul>
       </div>
 
-      <div className="secondPart"></div>
+      <div className="secondPart">
+        <ul className="right">
+          <li className="Rli">shaker</li>
+          <li
+            className="Rli
+          "
+          >
+            hello
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

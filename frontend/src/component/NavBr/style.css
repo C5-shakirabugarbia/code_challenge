@@ -10,9 +10,24 @@
     padding-left: 9px;
 }
 
+.BDropList{
+    display: flex;
+
+}
 .dropList{
     position: absolute;
+    top: 7%;
 }
 .disappear{
     display: none;
+}
+.right{
+    display: flex;
+}
+
+.Rli{
+    margin-left: 2%;
+}
+.secondPart{
+    flex: 1 1 20%;
 }
