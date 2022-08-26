@@ -29,6 +29,7 @@
     margin-left: 20%;
     list-style: none;
     display: flex;
+
   
 }
 .secondPart{
@@ -45,4 +46,8 @@
 .RUL{
     position: absolute;
     top: 7%;
+}
+
+.SB{
+    display: flex;
 }

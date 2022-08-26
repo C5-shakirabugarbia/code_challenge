@@ -4,6 +4,8 @@ import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiUser } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
+import { GrLocation } from "react-icons/gr";
+import { BsChevronDown } from "react-icons/bs";
 
 const Nav = () => {
   const [isActive, setActive] = useState(false);
@@ -11,9 +13,11 @@ const Nav = () => {
 
   const toggleClass = () => {
     setActive(!isActive);
+    setSecondIsActive(false);
   };
   const toggleClassS = () => {
     setSecondIsActive(!sIsActive);
+    setActive(false);
   };
   return (
     <div className="NavCont">
@@ -27,7 +31,7 @@ const Nav = () => {
             toggleClass();
           }}
         >
-          Auckland
+          <GrLocation /> Auckland <BsChevronDown />
         </button>
         <ul
           id="region-dropdown"
@@ -104,44 +108,66 @@ const Nav = () => {
           "
           >
             <button
+              className="SB"
               onClick={() => {
                 toggleClassS();
               }}
             >
-              <FiUser />
+              <FiUser /> <BsChevronDown />
             </button>
             <ul className={sIsActive ? "RUL" : "disappear"}>
-              <li class="toggler-off dropdown-list-item--account">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/my-stuff/my-account">
                   My Account
                 </a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--gifts">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/redeem">Gifts</a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--profile">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/profile">Profile</a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--my-subscriptions">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/my-stuff/my-subscriptions">
                   My Subscriptions
                 </a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--experience">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/my-stuff/my-deals">
                   My Purchases
                 </a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--logout">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/logout">Logout</a>
               </li>
 
-              <li class="toggler-off dropdown-list-item--login">
+              <li
+                className="lefLi
+          "
+              >
                 <a href="https://www.grabone.co.nz/login">Login</a>
               </li>
             </ul>
