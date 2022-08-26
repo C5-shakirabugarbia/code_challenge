@@ -23,7 +23,7 @@
 }
 .dropList{
     position: absolute;
-    top: 7%;  
+    top: 89px;  
     padding: 0;
     border: 1px solid #dce3ed;
     background: #fff;
@@ -66,7 +66,7 @@
 .RUL{
    
     position: absolute;
-    top: 7%;  
+    top: 89px;  
     padding: 0;
     border: 1px solid #dce3ed;
     background: #fff;
@@ -74,6 +74,7 @@
     z-index: 99;
     min-width: 290px;
     line-height: 1;
+    right: 232px;
 }
 
 .SB{
@@ -98,15 +99,24 @@ button{
 color: #fff;
 }
 .lefLi{
-    height: 50px;
+    
    
     padding-top: 10px;
     padding-left: 10px;
     border-bottom: 1px solid rgb(192,192,192 , 30%);
+    height: 60px;
+    width: 308px;
    
 }
 
 a{
     text-decoration: none;
     color: #4f5864;
+}
+
+ .lefLi:hover{
+    cursor: pointer;
+    background-color:   rgb(192,192,192 , 30%);
+    color: #01b2ee;
+   
 }
