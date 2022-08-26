@@ -4,7 +4,7 @@ import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiUser } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
-import { GrLocation } from "react-icons/gr";
+import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BsChevronDown } from "react-icons/bs";
 
 const Nav = () => {
@@ -31,8 +31,8 @@ const Nav = () => {
             toggleClass();
           }}
         >
-          <GrLocation className="Icon" /> Auckland{" "}
-          <BsChevronDown className="Icon" />
+          <HiOutlineLocationMarker className="Icon" /> Auckland{" "}
+          <BsChevronDown className="down" />
         </button>
         <ul
           id="region-dropdown"
@@ -114,7 +114,7 @@ const Nav = () => {
                 toggleClassS();
               }}
             >
-              <FiUser className="Icon" /> <BsChevronDown className="Icon" />
+              <FiUser className="Icon" /> <BsChevronDown className="down" />
             </button>
             <ul className={sIsActive ? "RUL" : "disappear"}>
               <li

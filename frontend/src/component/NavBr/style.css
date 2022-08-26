@@ -1,17 +1,24 @@
 .NavCont{
     display: flex;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 89px;
+    backface-visibility: hidden;
+    background: #01b2ee;
+    color: #fff;
 }
 
 .logo {
-    background-color: aqua;
-    flex: 0 1 50%;
+
+    flex: 1 1 50%;
     text-align: left;
     padding-left: 9px;
 }
 
 .BDropList{
     display: flex;
+    font-size: 20px;
 
 }
 .dropList{
@@ -24,13 +31,14 @@
 .right{
     display: flex;
     margin-bottom: 0;
-    background-color: beige;
+  
     width: 100%;
+    padding: 0px;
 
 }
 
 .Rli{
-    margin-left: 10%;
+    margin-left: 5%;
     list-style: none;
     display: flex;
 
@@ -57,6 +65,17 @@
 }
 
 .Icon{
-    width: 25px;
-    height: 25px;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+   
+}
+
+.lefLi , .Rli{
+    font-size: 20px
+}
+button{
+    background: none;
+    border: 0cm;
+color: #fff;
 }
