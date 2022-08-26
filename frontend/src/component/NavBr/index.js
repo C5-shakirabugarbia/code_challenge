@@ -38,57 +38,31 @@ const Nav = () => {
           id="region-dropdown"
           className={isActive ? "dropList" : "disappear"}
         >
-          <li className="lefLi">
-            <a href="?region=auckland">Auckland</a>
-          </li>
+          <li className="lefLi">Auckland</li>
 
-          <li className="lefLi">
-            <a href="?region=waikato">Waikato</a>
-          </li>
+          <li className="lefLi">Waikato</li>
 
-          <li className="lefLi">
-            <a href="?region=wellington">Wellington</a>
-          </li>
+          <li className="lefLi">Wellington</li>
 
-          <li className="lefLi">
-            <a href="?region=northland">Northland</a>
-          </li>
+          <li className="lefLi">Northland</li>
 
-          <li className="lefLi">
-            <a href="?region=manawatu-wanganui">Manawatu - Wanganui</a>
-          </li>
+          <li className="lefLi">Manawatu - Wanganui</li>
 
-          <li className="lefLi">
-            <a href="?region=tauranga">Tauranga</a>
-          </li>
+          <li className="lefLi">Tauranga</li>
 
-          <li className="lefLi">
-            <a href="?region=rotorua-taupo">Rotorua - Taupo</a>
-          </li>
+          <li className="lefLi">Rotorua - Taupo</li>
 
-          <li className="lefLi">
-            <a href="?region=hawkes-bay">Hawkes Bay</a>
-          </li>
+          <li className="lefLi">Hawkes Bay</li>
 
-          <li className="lefLi">
-            <a href="?region=christchurch">Christchurch</a>
-          </li>
+          <li className="lefLi">Christchurch</li>
 
-          <li className="lefLi">
-            <a href="?region=taranaki">Taranaki</a>
-          </li>
+          <li className="lefLi">Taranaki</li>
 
-          <li className="lefLi">
-            <a href="?region=nelson-marlborough">Nelson - Marlborough</a>
-          </li>
+          <li className="lefLi">Nelson - Marlborough</li>
 
-          <li className="lefLi">
-            <a href="?region=queenstown-wanaka">Queenstown - Wanaka</a>
-          </li>
+          <li className="lefLi">Queenstown - Wanaka</li>
 
-          <li className="lefLi">
-            <a href="?region=dunedin-invercargill">Dunedin - Invercargill</a>
-          </li>
+          <li className="lefLi">Dunedin - Invercargill</li>
         </ul>
       </div>
 
@@ -121,55 +95,51 @@ const Nav = () => {
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/my-stuff/my-account">
+             
                   My Account
-                </a>
+              
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/redeem">Gifts</a>
+              Gifts
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/profile">Profile</a>
+                Profile
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/my-stuff/my-subscriptions">
-                  My Subscriptions
-                </a>
+                My Subscriptions
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/my-stuff/my-deals">
-                  My Purchases
-                </a>
+                My Purchases
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/logout">Logout</a>
+              Logout
               </li>
 
               <li
                 className="lefLi
           "
               >
-                <a href="https://www.grabone.co.nz/login">Login</a>
+             Login
               </li>
             </ul>
           </li>
