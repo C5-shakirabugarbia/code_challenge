@@ -23,7 +23,15 @@
 }
 .dropList{
     position: absolute;
-    top: 7%;
+    top: 7%;  
+    padding: 0;
+    border: 1px solid #dce3ed;
+    background: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+    z-index: 99;
+    min-width: 290px;
+    line-height: 1;
+    
 }
 .disappear{
     display: none;
@@ -56,8 +64,16 @@
 }
 
 .RUL{
+   
     position: absolute;
-    top: 7%;
+    top: 7%;  
+    padding: 0;
+    border: 1px solid #dce3ed;
+    background: #fff;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+    z-index: 99;
+    min-width: 290px;
+    line-height: 1;
 }
 
 .SB{
@@ -72,10 +88,25 @@
 }
 
 .lefLi , .Rli{
-    font-size: 20px
+    font-size: 20px;
+ 
+   
 }
 button{
     background: none;
     border: 0cm;
 color: #fff;
+}
+.lefLi{
+    height: 50px;
+   
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(192,192,192 , 30%);
+   
+}
+
+a{
+    text-decoration: none;
+    color: #4f5864;
 }
