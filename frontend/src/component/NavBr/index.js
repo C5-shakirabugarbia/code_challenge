@@ -1,10 +1,19 @@
 import "./style.css";
 import React, { useState, useEffect } from "react";
+import { MdOutlineFavoriteBorder } from "react-icons/md";
+import { CgShoppingCart } from "react-icons/cg";
+import { FiUser } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+
 const Nav = () => {
   const [isActive, setActive] = useState(false);
+  const [sIsActive, setSecondIsActive] = useState(false);
 
   const toggleClass = () => {
     setActive(!isActive);
+  };
+  const toggleClassS = () => {
+    setSecondIsActive(!sIsActive);
   };
   return (
     <div className="NavCont">
@@ -80,18 +89,68 @@ const Nav = () => {
 
       <div className="secondPart">
         <ul className="right">
-          <li className="Rli">shaker</li>
-          <li
-            className="Rli
-          "
-          >
-            hello
+          <li className="Rli">
+            {" "}
+            <MdOutlineFavoriteBorder />{" "}
           </li>
           <li
             className="Rli
           "
           >
-            hello
+            <CgShoppingCart />
+          </li>
+          <li
+            className="Rli
+          "
+          >
+            <button
+              onClick={() => {
+                toggleClassS();
+              }}
+            >
+              <FiUser />
+            </button>
+            <ul className={sIsActive ? "RUL" : "disappear"}>
+              <li class="toggler-off dropdown-list-item--account">
+                <a href="https://www.grabone.co.nz/my-stuff/my-account">
+                  My Account
+                </a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--gifts">
+                <a href="https://www.grabone.co.nz/redeem">Gifts</a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--profile">
+                <a href="https://www.grabone.co.nz/profile">Profile</a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--my-subscriptions">
+                <a href="https://www.grabone.co.nz/my-stuff/my-subscriptions">
+                  My Subscriptions
+                </a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--experience">
+                <a href="https://www.grabone.co.nz/my-stuff/my-deals">
+                  My Purchases
+                </a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--logout">
+                <a href="https://www.grabone.co.nz/logout">Logout</a>
+              </li>
+
+              <li class="toggler-off dropdown-list-item--login">
+                <a href="https://www.grabone.co.nz/login">Login</a>
+              </li>
+            </ul>
+          </li>
+          <li
+            className="Rli
+          "
+          >
+            <FiMail /> Subscribe
           </li>
         </ul>
       </div>
