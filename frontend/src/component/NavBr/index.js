@@ -31,7 +31,8 @@ const Nav = () => {
             toggleClass();
           }}
         >
-          <GrLocation /> Auckland <BsChevronDown />
+          <GrLocation className="Icon" /> Auckland{" "}
+          <BsChevronDown className="Icon" />
         </button>
         <ul
           id="region-dropdown"
@@ -95,13 +96,13 @@ const Nav = () => {
         <ul className="right">
           <li className="Rli">
             {" "}
-            <MdOutlineFavoriteBorder />{" "}
+            <MdOutlineFavoriteBorder className="Icon" />{" "}
           </li>
           <li
             className="Rli
           "
           >
-            <CgShoppingCart />
+            <CgShoppingCart className="Icon" />
           </li>
           <li
             className="Rli
@@ -113,7 +114,7 @@ const Nav = () => {
                 toggleClassS();
               }}
             >
-              <FiUser /> <BsChevronDown />
+              <FiUser className="Icon" /> <BsChevronDown className="Icon" />
             </button>
             <ul className={sIsActive ? "RUL" : "disappear"}>
               <li
@@ -176,7 +177,7 @@ const Nav = () => {
             className="Rli
           "
           >
-            <FiMail /> Subscribe
+            <FiMail className="Icon" /> Subscribe
           </li>
         </ul>
       </div>

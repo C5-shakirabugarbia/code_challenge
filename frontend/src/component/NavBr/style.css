@@ -3,9 +3,9 @@
 
 }
 
-.logo{
+.logo {
     background-color: aqua;
-    flex: 1 1 50%;
+    flex: 0 1 50%;
     text-align: left;
     padding-left: 9px;
 }
@@ -23,19 +23,23 @@
 }
 .right{
     display: flex;
+    margin-bottom: 0;
+    background-color: beige;
+    width: 100%;
+
 }
 
 .Rli{
-    margin-left: 20%;
+    margin-left: 10%;
     list-style: none;
     display: flex;
 
   
 }
 .secondPart{
-    flex: 0 1 20%;
+    flex: 1 1 20%;
     display: flex;
-    align-items: end;
+    align-items: center;
 }
 
 .lefLi{
@@ -50,4 +54,9 @@
 
 .SB{
     display: flex;
+}
+
+.Icon{
+    width: 25px;
+    height: 25px;
 }
