@@ -1,10 +1,12 @@
 import "./style.css";
 import { FiSearch } from "react-icons/fi";
+import { FaSearch } from "react-icons/fa";
+
 const Sbar = () => {
   return (
     <div className="secondNav">
       <div className="TheList_Right_Side">
-        <ul>
+        <ul className="R_ul">
           <li className="R_li">Browse Categories</li>
           <li className="R_li">What's New</li>
           <li className="R_li">Trending</li>
@@ -13,12 +15,15 @@ const Sbar = () => {
         </ul>
       </div>
       <div className="TheList_left_Side">
-        <form>
-          <label>
-            <FiSearch />
-          </label>
-          <input type={"search"} />
-        </form>
+        <label className="S_icon">
+          <FaSearch />
+        </label>
+
+        <input
+          type={"search"}
+          placeholder={"Search GrabOne"}
+          className="searchInput"
+        />
       </div>
     </div>
   );
