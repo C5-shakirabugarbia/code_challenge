@@ -16,7 +16,7 @@ const Sbar = () => {
       </div>
       <div className="TheList_left_Side">
         <label className="S_icon">
-          <FaSearch />
+          <FaSearch className="Se_Icon" />
         </label>
 
         <input

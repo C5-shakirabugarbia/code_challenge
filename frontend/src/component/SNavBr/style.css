@@ -9,6 +9,7 @@
     min-height: 57px;
     color: #4f5864;
     font-weight: 500;
+    min-height: 80px;
 }
 .R_ul{
     display: flex;
@@ -27,14 +28,14 @@
     font-weight: 500;
 }
 .TheList_Right_Side{
-    flex:0 0 70%;
+    flex: 0 0 58%;
 }
 
 .searchInput{
     border: 0px;
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 53px;
     padding: 0 15px 0 37px;
     font-size: 15px;
     color: #4f5864;
@@ -43,6 +44,7 @@
     border-radius: 5px;
     border: 1px solid #dce3ed;
     width: 100%;
+    font-size: 20px;
     
 }
 .TheList_left_Side{
@@ -53,5 +55,9 @@
 }
 .S_icon{
     position: relative;
-    left: 26px;
+     left: 32px;
+}
+.Se_Icon{
+    width: 1.5rem;
+    height: 1.5rem;
 }
