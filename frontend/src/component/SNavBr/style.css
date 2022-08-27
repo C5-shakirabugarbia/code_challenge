@@ -26,6 +26,7 @@
     font-size: 20px;
     color: #4f5864;
     font-weight: 500;
+    cursor: pointer;
 }
 .TheList_Right_Side{
     flex: 0 0 58%;
@@ -60,4 +61,7 @@
 .Se_Icon{
     width: 1.5rem;
     height: 1.5rem;
+}
+.R_li:hover{
+    color: #1acbff;
 }
